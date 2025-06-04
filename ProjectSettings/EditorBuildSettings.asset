@@ -4,5 +4,14 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
-  m_configObjects: {}
+  m_Scenes:
+  - enabled: 1
+    path: Assets/MikelCorderoMedina/Scene/Scene1.unity
+    guid: dd1ee40a4e1594693ab520ff47198969
+  - enabled: 1
+    path: "Assets/MikelCorderoMedina/Scene/EscenaDetecci\xF3nPlanos.unity"
+    guid: d462ea7a7972547139c7412b3e499583
+  m_configObjects:
+    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: a960648b605aa4900b9d152f773e98d5, type: 2}
+    com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: cc8c22df790124610ade88669edb9fd0, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 1affa7031cbb24576b7c8d2f682e27df, type: 2}
